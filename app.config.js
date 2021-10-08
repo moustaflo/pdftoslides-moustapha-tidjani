@@ -1,4 +1,4 @@
 module.exports = {
-  name: 'wefunder-homework-moustapha-tidjani',
+  name: 'pdftoslides-moustapha-tidjani',
   port: 3000,
 }

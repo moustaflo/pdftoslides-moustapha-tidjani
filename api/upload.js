@@ -1,3 +1,5 @@
+'use strict'
+
 const express = require('express')
 const router = express.Router()
 const multer = require('multer')
@@ -18,6 +20,7 @@ router.post('/', async (req, res, next) => {
 
     // Empty pitchfolder
     await fsExtra.emptyDir('./src/public/pitchfolder')
+    
     // Upload PDF
     upload(req, res, (err) => {
         if (err instanceof multer.MulterError) {

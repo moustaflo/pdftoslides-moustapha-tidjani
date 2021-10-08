@@ -1,7 +1,7 @@
 {
-  "name": "wefunder-homework-moustapha-tidjani",
+  "name": "pdftoslides-moustapha-tidjani",
   "version": "1.0.0",
-  "description": "Buit for Moustapha's job application task",
+  "description": "Built with love",
   "private": true,
   "main": "app.js",
   "devDependencies": {
